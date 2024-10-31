@@ -4,17 +4,10 @@
 </div>
 
 <style>
-  h1 {
-    animation: fadeIn 2s ease-in-out;
-    text-transform: uppercase;
-  }
+  h1 {animation: fadeIn 2s ease-in-out;text-transform: uppercase;}
 
-  p {
-    animation: fadeIn 3s ease-in-out;
-  }
+  p {animation: fadeIn 3s ease-in-out;}
 
-  @keyframes fadeIn {
-    0% { opacity: 0; transform: translateY(-20px); }
-    100% { opacity: 1; transform: translateY(0); }
-  }
+  @keyframes fadeIn {0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0);}}
 </style>
