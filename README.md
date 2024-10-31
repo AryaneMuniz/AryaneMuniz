@@ -1,13 +1,31 @@
-<div align="center">
-  <h1 style="font-size: 3em; color: #4CAF50; font-weight: bold;">OLÁ! EU SOU ARYANE MUNIZ</h1>
-  <p style="font-size: 1.5em; font-weight: 500;"> A Intensão desta página é mostrar minha evolução para vocês e para mim mesma! Sejam Bem-vindos </p>
+<div class="dvd-text">
+  QUICANDO PELO GITHUB
 </div>
 
 <style>
-  h1 {animation: fadeIn 2s ease-in-out;text-transform: uppercase;}
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+    margin: 0;
+  }
 
-  p {animation: fadeIn 3s ease-in-out;}
+  .dvd-text {
+    font-size: 2em;
+    color: #FFF;
+    font-weight: bold;
+    position: absolute;
+    animation: bounce 5s infinite;
+  }
 
-  @keyframes fadeIn {0% { opacity: 0; transform: translateY(-20px); }
-    100% { opacity: 1; transform: translateY(0);}}
+  @keyframes bounce {
+    0%   { top: 0; left: 0; color: #4CAF50; }
+    25%  { top: 0; right: 0; color: #FF5722; }
+    50%  { bottom: 0; right: 0; color: #2196F3; }
+    75%  { bottom: 0; left: 0; color: #FFEB3B; }
+    100% { top: 0; left: 0; color: #4CAF50; }
+  }
 </style>
